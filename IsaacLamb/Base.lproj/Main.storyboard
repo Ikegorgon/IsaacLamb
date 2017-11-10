@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="144.80000000000001" y="116.49175412293854"/>
         </scene>
-        <!--Algorithm Controller-->
+        <!--Creativity Controller-->
         <scene sceneID="epj-BO-JNt">
             <objects>
-                <viewController id="I7g-Zu-wce" customClass="Algorithm_Controller" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="I7g-Zu-wce" customClass="CreativityController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I7C-vh-CaE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="857" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--Abstraction Controller-->
         <scene sceneID="K7j-TF-E3p">
             <objects>
-                <viewController id="WlP-lh-yU4" customClass="ViewController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="WlP-lh-yU4" customClass="AbstractionController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bRL-4s-P4C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -138,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="1580" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Data Info Controller-->
         <scene sceneID="wvG-jY-jHM">
             <objects>
-                <viewController id="Sys-jC-Yar" customClass="ViewController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Sys-jC-Yar" customClass="DataInfoController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rFc-Dm-7xU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -181,10 +181,10 @@
             </objects>
             <point key="canvasLocation" x="2319" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Algorithm Controller-->
         <scene sceneID="LJn-Cm-VPJ">
             <objects>
-                <viewController id="xuv-OE-Y3W" customClass="ViewController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xuv-OE-Y3W" customClass="Algorithm_Controller" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dbq-dv-snI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -224,10 +224,10 @@
             </objects>
             <point key="canvasLocation" x="3050" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Programming Controller-->
         <scene sceneID="FnH-Zt-scC">
             <objects>
-                <viewController id="ehg-3k-DUN" customClass="ViewController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ehg-3k-DUN" customClass="ProgrammingController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qxS-HS-n1m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -267,10 +267,10 @@
             </objects>
             <point key="canvasLocation" x="3780" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Internet Controller-->
         <scene sceneID="7Nv-Eo-mBK">
             <objects>
-                <viewController id="6Eb-cZ-YL9" customClass="ViewController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="6Eb-cZ-YL9" customClass="InternetController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ucW-YM-8pe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -310,10 +310,10 @@
             </objects>
             <point key="canvasLocation" x="4521" y="116"/>
         </scene>
-        <!--View Controller-->
+        <!--Global Impact Controller-->
         <scene sceneID="S2Q-16-ZA2">
             <objects>
-                <viewController id="R3M-Im-Shf" customClass="ViewController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="R3M-Im-Shf" customClass="GlobalImpactController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sHE-5I-9iz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
