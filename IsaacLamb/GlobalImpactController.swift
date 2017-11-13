@@ -10,6 +10,15 @@ import UIKit
 
 class GlobalImpactController: UIViewController {
 
+    @IBOutlet weak var image: UIImageView!
+    private func imageAction() -> Void {
+        if (image.image == #imageLiteral(resourceName: "globalcooling")) {
+            image.image = #imageLiteral(resourceName: "writeout")
+        } else if (image.image == #imageLiteral(resourceName: "writeout")) {
+            image.image = #imageLiteral(resourceName: "globalcooling")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
