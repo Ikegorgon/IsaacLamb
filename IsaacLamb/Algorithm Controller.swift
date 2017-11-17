@@ -18,18 +18,18 @@ class Algorithm_Controller: UIViewController {
         
         // TODO: Define algorithm and all steps
         let algorithm :String = "Making a Project in Java"
-        let stepOne :String = "1. Create new java project"
-        let stepTwo :String = "2. Name Project"
+        let stepOne :String = "Create new java project"
+        let stepTwo :String = "Name Project"
         let stepThree :String = "Add (project name).controller package to src folder"
-        let stepFour :String = ""
-        let stepFive :String = ""
-        let stepSix :String = ""
-        let stepSeven :String = ""
-        let stepEight :String = ""
-        let stepNine :String = ""
-        let stepTen :String = ""
-        let stepEleven :String = ""
-        let stepTwelve :String = ""
+        let stepFour :String = "Add (project name).model package to src folder"
+        let stepFive :String = "Add (project name).view package to src folder"
+        let stepSix :String = "Add (Project Name)Runner.java file to .contoller package"
+        let stepSeven :String = "Add main method to Runner file"
+        let stepEight :String = "Add (Project Name)Controller.java file to .controller package"
+        let stepNine :String = "Add start method to Controller file"
+        let stepTen :String = "Add code to controller to execute program"
+        let stepEleven :String = "Add any display files to .view package and any item files to .model package along with all and any code to go with those files"
+        let stepTwelve :String = "Import added files into (Project Name)Controller for use"
         
         //TODO: Finish adding all steps to the algorithm
         algorithmSteps = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven, stepEight, stepNine, stepTen, stepEleven, stepTwelve]
@@ -62,7 +62,7 @@ class Algorithm_Controller: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupAlgorithm()
         // Do any additional setup after loading the view.
     }
 
