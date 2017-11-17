@@ -134,17 +134,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="hmI-AN-4fY">
-                                <rect key="frame" x="16" y="20" width="343" height="338"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ech-0L-TJq">
-                                <rect key="frame" x="16" y="366" width="343" height="128"/>
+                                <rect key="frame" x="16" y="318" width="343" height="284"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Algorithm">
                                         <attributes>
-                                            <font key="NSFont" size="18" name="ArialMT"/>
+                                            <font key="NSFont" size="13" name="Arial-BoldMT"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -157,6 +153,23 @@
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihl-ZT-b6a">
+                                <rect key="frame" x="42" y="20" width="290" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Algorithms">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="Times-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="javaSample" translatesAutoresizingMaskIntoConstraints="NO" id="hmI-AN-4fY">
+                                <rect key="frame" x="62" y="68" width="250" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Yyu-V5-YKh"/>
@@ -167,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FK0-v9-TDd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3050" y="116"/>
+            <point key="canvasLocation" x="3048.8000000000002" y="115.59220389805098"/>
         </scene>
         <!--Programming Controller-->
         <scene sceneID="FnH-Zt-scC">
@@ -230,7 +243,7 @@
                                 <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </pageControl>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="globalcooling" translatesAutoresizingMaskIntoConstraints="NO" id="8Dc-cs-F1v">
-                                <rect key="frame" x="16" y="20" width="343" height="343"/>
+                                <rect key="frame" x="42" y="73" width="290" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
@@ -241,7 +254,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Our app helps to solve the global crisis of climate change by raising awareness to the individual. By showing the amount of carbon emissions reduced, it gives a feeling of satisfaction towards helping the environment. It will give specific numbers and information about the amount of carbon emissions saved by walking, biking, or carpooling. In addition to this, we will have a page about different ways you could reduce your carbon footprint such as energy efficient light bulbs, reducing carbon emissions, and water management. </mutableString>
+                                        <string key="content">Our app helps to solve the global crisis of climate change by raising awareness to the individual. By showing the amount of carbon emissions reduced, it gives a feeling of satisfaction towards helping the environment. It will give specific numbers and information about the amount of carbon emissions saved by walking, biking, or carpooling. In addition to this, we will have a page about different ways you could reduce your carbon footprint such as energy efficient light bulbs, reducing carbon emissions, and water management. </string>
                                         <attributes>
                                             <font key="NSFont" size="17" name="Times-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -250,8 +263,21 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5my-WR-aGt">
+                                <rect key="frame" x="42" y="20" width="290" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Global Impact">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="Times-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTO-Ew-BNF">
-                                <rect key="frame" x="16" y="20" width="343" height="343"/>
+                                <rect key="frame" x="42" y="73" width="290" height="290"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="imageAction" destination="R3M-Im-Shf" eventType="touchUpInside" id="EV2-5o-B2E"/>
@@ -274,5 +300,6 @@
     <resources>
         <image name="Logo" width="225" height="224"/>
         <image name="globalcooling" width="322" height="276"/>
+        <image name="javaSample" width="1126" height="754"/>
     </resources>
 </document>
