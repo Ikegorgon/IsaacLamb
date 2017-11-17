@@ -10,8 +10,9 @@
 		533F1B9B1FB3A5EF0030A40A /* Algorithm Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F1B9A1FB3A5EF0030A40A /* Algorithm Controller.swift */; };
 		533F1B9D1FB3A68C0030A40A /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F1B9C1FB3A68C0030A40A /* CreativityController.swift */; };
 		533F1B9F1FB3A6A60030A40A /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F1B9E1FB3A6A60030A40A /* AbstractionController.swift */; };
+		535623B01FBB7BB800ACFAA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535623AF1FBB7BB800ACFAA0 /* ViewController.swift */; };
+		535623B21FBB7C3B00ACFAA0 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535623B11FBB7C3B00ACFAA0 /* MainController.swift */; };
 		53C530191FA2599900A6D94D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C530181FA2599900A6D94D /* AppDelegate.swift */; };
-		53C5301B1FA2599900A6D94D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C5301A1FA2599900A6D94D /* ViewController.swift */; };
 		53C5301E1FA2599900A6D94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C5301C1FA2599900A6D94D /* Main.storyboard */; };
 		53C530201FA2599900A6D94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C5301F1FA2599900A6D94D /* Assets.xcassets */; };
 		53C530231FA2599900A6D94D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C530211FA2599900A6D94D /* LaunchScreen.storyboard */; };
@@ -25,9 +26,10 @@
 		533F1B9A1FB3A5EF0030A40A /* Algorithm Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Algorithm Controller.swift"; sourceTree = "<group>"; };
 		533F1B9C1FB3A68C0030A40A /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityController.swift; sourceTree = "<group>"; };
 		533F1B9E1FB3A6A60030A40A /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
+		535623AF1FBB7BB800ACFAA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		535623B11FBB7C3B00ACFAA0 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		53C530151FA2599900A6D94D /* IsaacLamb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsaacLamb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C530181FA2599900A6D94D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53C5301A1FA2599900A6D94D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		53C5301D1FA2599900A6D94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53C5301F1FA2599900A6D94D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53C530221FA2599900A6D94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,7 +71,8 @@
 			isa = PBXGroup;
 			children = (
 				53C530181FA2599900A6D94D /* AppDelegate.swift */,
-				53C5301A1FA2599900A6D94D /* ViewController.swift */,
+				535623AF1FBB7BB800ACFAA0 /* ViewController.swift */,
+				535623B11FBB7C3B00ACFAA0 /* MainController.swift */,
 				533F1B9C1FB3A68C0030A40A /* CreativityController.swift */,
 				533F1B9E1FB3A6A60030A40A /* AbstractionController.swift */,
 				53CA745B1FB63D5B0007A7F8 /* DataInfoController.swift */,
@@ -159,8 +162,9 @@
 			files = (
 				53CA74621FB63DE70007A7F8 /* GlobalImpactController.swift in Sources */,
 				53CA74601FB63DC20007A7F8 /* InternetController.swift in Sources */,
-				53C5301B1FA2599900A6D94D /* ViewController.swift in Sources */,
 				53CA745E1FB63DAC0007A7F8 /* ProgrammingController.swift in Sources */,
+				535623B01FBB7BB800ACFAA0 /* ViewController.swift in Sources */,
+				535623B21FBB7C3B00ACFAA0 /* MainController.swift in Sources */,
 				533F1B9D1FB3A68C0030A40A /* CreativityController.swift in Sources */,
 				533F1B9F1FB3A6A60030A40A /* AbstractionController.swift in Sources */,
 				53CA745C1FB63D5B0007A7F8 /* DataInfoController.swift in Sources */,
