@@ -11,7 +11,8 @@ import UIKit
 class GlobalImpactController: UIViewController {
 
     @IBOutlet weak var image: UIImageView!
-    private func imageAction() -> Void {
+    @IBOutlet weak var imageButton: UIButton!
+    @IBAction func imageAction() -> Void {
         if (image.image == #imageLiteral(resourceName: "globalcooling")) {
             image.image = #imageLiteral(resourceName: "writeout")
         } else if (image.image == #imageLiteral(resourceName: "writeout")) {
