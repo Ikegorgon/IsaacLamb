@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="uCn-1T-dkr">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,51 +10,57 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="5JC-fK-pd9">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="uCn-1T-dkr" customClass="ViewController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mIz-Ij-HH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-481" y="116"/>
+        </scene>
+        <!--Main Controller-->
+        <scene sceneID="RAC-wK-Api">
+            <objects>
+                <viewController restorationIdentifier="FirstVC" storyboardIdentifier="FirstVC" id="oN0-A3-pqa" customClass="MainController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XZX-xF-D06">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="uz6-sI-xNp">
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" translatesAutoresizingMaskIntoConstraints="NO" id="iz7-WF-ORL">
+                                <rect key="frame" x="16" y="610" width="343" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </pageControl>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="sOa-w8-xXV">
                                 <rect key="frame" x="16" y="20" width="343" height="338"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHp-Rw-RT0">
-                                <rect key="frame" x="16" y="366" width="343" height="128"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ss-9h-nUj">
+                                <rect key="frame" x="16" y="366" width="343" height="236"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Isaac Lamb App ">
+                                    <fragment content="Swift App                                           By Isaac Lamb">
                                         <attributes>
-                                            <font key="NSFont" size="18" name="ArialMT"/>
+                                            <font key="NSFont" size="45" name="TimesNewRomanPSMT"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" translatesAutoresizingMaskIntoConstraints="NO" id="mS1-Vo-Rhb">
-                                <rect key="frame" x="16" y="610" width="343" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="JCD-fG-UkH"/>
                     </view>
-                    <connections>
-                        <outlet property="Algorithm" destination="nHp-Rw-RT0" id="lQ6-bP-6NN"/>
-                        <outlet property="AlgorithmText" destination="nHp-Rw-RT0" id="9Gc-5y-ExV"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qRf-AJ-1j0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="144.80000000000001" y="116.49175412293854"/>
+            <point key="canvasLocation" x="196" y="115.59220389805098"/>
         </scene>
         <!--Creativity Controller-->
         <scene sceneID="epj-BO-JNt">
             <objects>
-                <viewController id="I7g-Zu-wce" customClass="CreativityController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="SecondVC" storyboardIdentifier="SecondVC" id="I7g-Zu-wce" customClass="CreativityController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="I7C-vh-CaE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,6 +68,8 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="3gg-pQ-Ja9">
                                 <rect key="frame" x="16" y="610" width="343" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -75,7 +83,7 @@
         <!--Abstraction Controller-->
         <scene sceneID="K7j-TF-E3p">
             <objects>
-                <viewController id="WlP-lh-yU4" customClass="AbstractionController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="ThirdVC" storyboardIdentifier="ThirdVC" id="WlP-lh-yU4" customClass="AbstractionController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bRL-4s-P4C">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,6 +91,8 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="XMA-sU-s2h">
                                 <rect key="frame" x="16" y="610" width="343" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -96,7 +106,7 @@
         <!--Data Info Controller-->
         <scene sceneID="wvG-jY-jHM">
             <objects>
-                <viewController id="Sys-jC-Yar" customClass="DataInfoController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="FourthVC" storyboardIdentifier="FourthVC" id="Sys-jC-Yar" customClass="DataInfoController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rFc-Dm-7xU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,6 +114,8 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="3" translatesAutoresizingMaskIntoConstraints="NO" id="7r5-v1-9Uj">
                                 <rect key="frame" x="16" y="610" width="343" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -117,7 +129,7 @@
         <!--Algorithm Controller-->
         <scene sceneID="LJn-Cm-VPJ">
             <objects>
-                <viewController id="xuv-OE-Y3W" customClass="Algorithm_Controller" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="FifthVC" storyboardIdentifier="FifthVC" id="xuv-OE-Y3W" customClass="Algorithm_Controller" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dbq-dv-snI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -142,14 +154,15 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="4" translatesAutoresizingMaskIntoConstraints="NO" id="mIr-VP-Stb">
                                 <rect key="frame" x="16" y="610" width="343" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Yyu-V5-YKh"/>
                     </view>
                     <connections>
-                        <outlet property="Algorithm" destination="ech-0L-TJq" id="tzg-j3-CjT"/>
-                        <outlet property="AlgorithmText" destination="ech-0L-TJq" id="sHq-wc-5Ik"/>
+                        <outlet property="Algorithm" destination="ech-0L-TJq" id="wZh-Ow-jI0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FK0-v9-TDd" sceneMemberID="firstResponder"/>
@@ -159,7 +172,7 @@
         <!--Programming Controller-->
         <scene sceneID="FnH-Zt-scC">
             <objects>
-                <viewController id="ehg-3k-DUN" customClass="ProgrammingController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="SixthVC" storyboardIdentifier="SixthVC" id="ehg-3k-DUN" customClass="ProgrammingController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qxS-HS-n1m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -167,6 +180,8 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="5" translatesAutoresizingMaskIntoConstraints="NO" id="Qyu-RA-fTv">
                                 <rect key="frame" x="16" y="610" width="343" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -180,7 +195,7 @@
         <!--Internet Controller-->
         <scene sceneID="7Nv-Eo-mBK">
             <objects>
-                <viewController id="6Eb-cZ-YL9" customClass="InternetController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="SeventhVC" storyboardIdentifier="SeventhVC" id="6Eb-cZ-YL9" customClass="InternetController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ucW-YM-8pe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,6 +203,8 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="6" translatesAutoresizingMaskIntoConstraints="NO" id="3Lg-Ph-XOk">
                                 <rect key="frame" x="16" y="610" width="343" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -201,7 +218,7 @@
         <!--Global Impact Controller-->
         <scene sceneID="S2Q-16-ZA2">
             <objects>
-                <viewController id="R3M-Im-Shf" customClass="GlobalImpactController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="EighthVC" storyboardIdentifier="EighthVC" id="R3M-Im-Shf" customClass="GlobalImpactController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sHE-5I-9iz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -209,6 +226,8 @@
                             <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="8" currentPage="7" translatesAutoresizingMaskIntoConstraints="NO" id="Htm-fP-4cy">
                                 <rect key="frame" x="16" y="610" width="343" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </pageControl>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="globalcooling" translatesAutoresizingMaskIntoConstraints="NO" id="8Dc-cs-F1v">
                                 <rect key="frame" x="16" y="20" width="343" height="343"/>
@@ -217,26 +236,34 @@
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gH5-tY-eLk">
-                                <rect key="frame" x="16" y="371" width="343" height="196"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gH5-tY-eLk">
+                                <rect key="frame" x="16" y="371" width="343" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <mutableString key="content">Our app helps to solve the global crisis of climate change by raising awareness to the individual. By showing the amount of carbon emissions reduced, it gives a feeling of satisfaction towards helping the environment. It will give specific numbers and information about the amount of carbon emissions saved by walking, biking, or carpooling. In addition to this, we will have a page about different ways you could reduce your carbon footprint such as energy efficient light bulbs, reducing carbon emissions, and water management. </mutableString>
                                         <attributes>
-                                            <font key="NSFont" size="15" name="TimesNewRomanPSMT"/>
+                                            <font key="NSFont" size="17" name="Times-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTO-Ew-BNF">
+                                <rect key="frame" x="16" y="20" width="343" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="imageAction" destination="R3M-Im-Shf" eventType="touchUpInside" id="EV2-5o-B2E"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="nbK-aa-AqC"/>
                     </view>
                     <connections>
                         <outlet property="image" destination="8Dc-cs-F1v" id="QDI-Mz-fuu"/>
+                        <outlet property="imageButton" destination="DTO-Ew-BNF" id="bOb-nl-35L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HDX-WC-Vsv" sceneMemberID="firstResponder"/>
