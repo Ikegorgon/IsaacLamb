@@ -20,6 +20,8 @@
 		53CA745E1FB63DAC0007A7F8 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA745D1FB63DAC0007A7F8 /* ProgrammingController.swift */; };
 		53CA74601FB63DC20007A7F8 /* InternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA745F1FB63DC20007A7F8 /* InternetController.swift */; };
 		53CA74621FB63DE70007A7F8 /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA74611FB63DE70007A7F8 /* GlobalImpactController.swift */; };
+		53DF23E51FC35F90009F4F6C /* Love.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF23E41FC35F90009F4F6C /* Love.swift */; };
+		53DF23E71FC36077009F4F6C /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF23E61FC36077009F4F6C /* Duck.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		53CA745D1FB63DAC0007A7F8 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
 		53CA745F1FB63DC20007A7F8 /* InternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetController.swift; sourceTree = "<group>"; };
 		53CA74611FB63DE70007A7F8 /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
+		53DF23E41FC35F90009F4F6C /* Love.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love.swift; sourceTree = "<group>"; };
+		53DF23E61FC36077009F4F6C /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +86,20 @@
 				53CA74611FB63DE70007A7F8 /* GlobalImpactController.swift */,
 				53C5301C1FA2599900A6D94D /* Main.storyboard */,
 				53C5301F1FA2599900A6D94D /* Assets.xcassets */,
+				53DF23E31FC35F72009F4F6C /* Model */,
 				53C530211FA2599900A6D94D /* LaunchScreen.storyboard */,
 				53C530241FA2599900A6D94D /* Info.plist */,
 			);
 			path = IsaacLamb;
+			sourceTree = "<group>";
+		};
+		53DF23E31FC35F72009F4F6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53DF23E41FC35F90009F4F6C /* Love.swift */,
+				53DF23E61FC36077009F4F6C /* Duck.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53DF23E51FC35F90009F4F6C /* Love.swift in Sources */,
 				53CA74621FB63DE70007A7F8 /* GlobalImpactController.swift in Sources */,
 				53CA74601FB63DC20007A7F8 /* InternetController.swift in Sources */,
 				53CA745E1FB63DAC0007A7F8 /* ProgrammingController.swift in Sources */,
@@ -167,6 +182,7 @@
 				535623B21FBB7C3B00ACFAA0 /* MainController.swift in Sources */,
 				533F1B9D1FB3A68C0030A40A /* CreativityController.swift in Sources */,
 				533F1B9F1FB3A6A60030A40A /* AbstractionController.swift in Sources */,
+				53DF23E71FC36077009F4F6C /* Duck.swift in Sources */,
 				53CA745C1FB63D5B0007A7F8 /* DataInfoController.swift in Sources */,
 				53C530191FA2599900A6D94D /* AppDelegate.swift in Sources */,
 				533F1B9B1FB3A5EF0030A40A /* Algorithm Controller.swift in Sources */,
