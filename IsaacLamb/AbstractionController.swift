@@ -10,9 +10,11 @@ import UIKit
 
 class AbstractionController: UIViewController {
 
+    @IBOutlet weak var AbsractButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        AbsractButton.backgroundColor = UIColor.black
+        AbsractButton.setTitleColor(UIColor.white, for: UIControlState.selected)
         // Do any additional setup after loading the view.
     }
 
