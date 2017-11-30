@@ -1455,6 +1455,97 @@
             </objects>
             <point key="canvasLocation" x="4568.8000000000002" y="833.43328335832086"/>
         </scene>
+        <!--Internet Detail View Controller-->
+        <scene sceneID="BtU-mm-7fP">
+            <objects>
+                <viewController id="shw-2g-XmL" customClass="InternetDetailViewController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qeq-6z-HvB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yiw-cN-98B">
+                                <rect key="frame" x="16" y="64" width="343" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hbi-eT-haE">
+                                <rect key="frame" x="16" y="337" width="343" height="310"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="dOC-L5-aAu"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kg1-M0-5dd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6232.8000000000002" y="707.49625187406298"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="yMs-Jx-JoV">
+            <objects>
+                <tableViewController clearsSelectionOnViewWillAppear="NO" id="COl-6m-nKR" customClass="InternetController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="yYY-CI-XX7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Cjr-m3-R6r">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cjr-m3-R6r" id="bPJ-CS-dYZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="COl-6m-nKR" id="HJc-jH-QDK"/>
+                            <outlet property="delegate" destination="COl-6m-nKR" id="hGA-OZ-ukO"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="YuV-HP-4WC"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2ET-fx-EDy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7183" y="44"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jpP-0m-ajZ">
+            <objects>
+                <navigationController id="3L6-vB-wVy" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kev-ue-7QU">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="COl-6m-nKR" kind="relationship" relationship="rootViewController" id="ryt-gM-ixS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K6q-YJ-BIO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6233" y="44"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="yAx-t1-cYJ">
+            <objects>
+                <splitViewController id="n3J-5u-nXa" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="3L6-vB-wVy" kind="relationship" relationship="masterViewController" id="D17-Gi-RMH"/>
+                        <segue destination="shw-2g-XmL" kind="relationship" relationship="detailViewController" id="y1J-dZ-7Ja"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E8X-Sd-Huy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5279" y="376"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Abstract" width="2040" height="2401"/>
@@ -1468,6 +1559,6 @@
         <image name="javaSample" width="1126" height="754"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rAA-Mm-pFD"/>
+        <segue reference="uXq-J3-haT"/>
     </inferredMetricsTieBreakers>
 </document>
