@@ -13,6 +13,8 @@
 		535623B01FBB7BB800ACFAA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535623AF1FBB7BB800ACFAA0 /* ViewController.swift */; };
 		535623B21FBB7C3B00ACFAA0 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535623B11FBB7C3B00ACFAA0 /* MainController.swift */; };
 		53562F521FCCB1F300CF9D04 /* AbstractionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53562F511FCCB1F300CF9D04 /* AbstractionPageController.swift */; };
+		53A262AC1FCF39EF00A5370C /* InternetDetailViewontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A262AB1FCF39EF00A5370C /* InternetDetailViewontroller.swift */; };
+		53A262AF1FCF3B9700A5370C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A262AE1FCF3B9700A5370C /* WebKit.framework */; };
 		53C530191FA2599900A6D94D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C530181FA2599900A6D94D /* AppDelegate.swift */; };
 		53C5301E1FA2599900A6D94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C5301C1FA2599900A6D94D /* Main.storyboard */; };
 		53C530201FA2599900A6D94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C5301F1FA2599900A6D94D /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		535623AF1FBB7BB800ACFAA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		535623B11FBB7C3B00ACFAA0 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		53562F511FCCB1F300CF9D04 /* AbstractionPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionPageController.swift; sourceTree = "<group>"; };
+		53A262AB1FCF39EF00A5370C /* InternetDetailViewontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewontroller.swift; sourceTree = "<group>"; };
+		53A262AE1FCF3B9700A5370C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		53C530151FA2599900A6D94D /* IsaacLamb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsaacLamb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C530181FA2599900A6D94D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53C5301D1FA2599900A6D94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,17 +55,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53A262AF1FCF3B9700A5370C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53A262AD1FCF3B9700A5370C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53A262AE1FCF3B9700A5370C /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		53C5300C1FA2599900A6D94D = {
 			isa = PBXGroup;
 			children = (
 				53C530171FA2599900A6D94D /* IsaacLamb */,
 				53C530161FA2599900A6D94D /* Products */,
+				53A262AD1FCF3B9700A5370C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +100,7 @@
 				533F1B9A1FB3A5EF0030A40A /* Algorithm Controller.swift */,
 				53CA745D1FB63DAC0007A7F8 /* ProgrammingController.swift */,
 				53CA745F1FB63DC20007A7F8 /* InternetController.swift */,
+				53A262AB1FCF39EF00A5370C /* InternetDetailViewontroller.swift */,
 				53CA74611FB63DE70007A7F8 /* GlobalImpactController.swift */,
 				53C5301C1FA2599900A6D94D /* Main.storyboard */,
 				53C5301F1FA2599900A6D94D /* Assets.xcassets */,
@@ -189,6 +204,7 @@
 				53CA745C1FB63D5B0007A7F8 /* DataInfoController.swift in Sources */,
 				53562F521FCCB1F300CF9D04 /* AbstractionPageController.swift in Sources */,
 				53C530191FA2599900A6D94D /* AppDelegate.swift in Sources */,
+				53A262AC1FCF39EF00A5370C /* InternetDetailViewontroller.swift in Sources */,
 				533F1B9B1FB3A5EF0030A40A /* Algorithm Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
