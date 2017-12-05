@@ -20,9 +20,22 @@ class InternetController: UITableViewController {
             "Swift Guide"
         ]
     }()
+    private lazy var addresses : [String] = []
     private var detailViewController : InternetDetailViewController?
     private func setup() -> Void {
-        
+        addresses = [
+            "https://www.google.com",
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
+            "http://www.canyonsdistrict.org/",
+            "https://ctec.canyonsdistrict.org/",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309",
+            "www.twitter.com"
+        ]
+        if let splitView = splitViewController {
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as?
+                InternetDetailViewController
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,6 +56,25 @@ class InternetController: UITableViewController {
         cell.textLabel!.text = currentText
         
         return cell
+    }
+    override public func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier! == "showDetail" {
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                let urlString = addresses[indexPath.row]
+                let pageText : String
+                if indexPath.row == 0 {
+                    pageText = "URL: Uniform Resource Locator, world wide web link. TCP: a set of rules that governs the delivery of data over the Internet or other network that uses the Internet Protocol, and sets up a connection between the sending and receiving computers. IP: Internet Protocol, a set of rules governing the format of data sent over the Internet or other network. DNS: (Domain Name System) The Internet's system for converting alphabetic names into numeric IP addresses."
+                } else {
+                    pageText = internetTopics[indexPath.row]
+                }
+                let controller = segue.destination as!
+                    InternetDetailViewController
+                controller.detailAddress = urlString
+                controller.detailText = pageText
+                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
+                controller.navigationItem.leftItemsSupplementBackButton = true
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
