@@ -355,10 +355,10 @@
             </objects>
             <point key="canvasLocation" x="3303" y="116"/>
         </scene>
-        <!--Internet Controller-->
+        <!--View Controller-->
         <scene sceneID="7Nv-Eo-mBK">
             <objects>
-                <viewController restorationIdentifier="SeventhVC" storyboardIdentifier="SeventhVC" id="6Eb-cZ-YL9" customClass="InternetController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="SeventhVC" storyboardIdentifier="SeventhVC" id="6Eb-cZ-YL9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ucW-YM-8pe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -382,26 +382,19 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="jvD-Vb-w4d">
-                                <rect key="frame" x="42" y="68" width="290" height="290"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uzH-bR-eSf" customClass="DrawingView" customModule="IsaacLamb" customModuleProvider="target">
+                                <rect key="frame" x="16" y="68" width="343" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
-                                </accessibility>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="enb-Go-7WG">
-                                <rect key="frame" x="16" y="366" width="343" height="236"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yup-5W-0fF">
+                                <rect key="frame" x="164" y="479" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Label">
-                                        <attributes>
-                                            <font key="NSFont" size="17" name="Times-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="n3J-5u-nXa" kind="show" id="LS1-OE-clf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="cxj-za-jVs"/>
@@ -1483,10 +1476,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="dOC-L5-aAu"/>
                     </view>
+                    <connections>
+                        <outlet property="textView" destination="Yiw-cN-98B" id="Uf6-0G-Mi8"/>
+                        <outlet property="webViewer" destination="Hbi-eT-haE" id="Sv6-QI-Tdm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kg1-M0-5dd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6232.8000000000002" y="707.49625187406298"/>
+            <point key="canvasLocation" x="4718" y="-544"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="yMs-Jx-JoV">
@@ -1497,13 +1494,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Cjr-m3-R6r">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="Cjr-m3-R6r">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cjr-m3-R6r" id="bPJ-CS-dYZ">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="shw-2g-XmL" kind="showDetail" identifier="showDetail" id="AFw-dK-xmp"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -1515,7 +1515,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ET-fx-EDy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7183" y="44"/>
+            <point key="canvasLocation" x="5540" y="-980"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jpP-0m-ajZ">
@@ -1531,7 +1531,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6q-YJ-BIO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6233" y="44"/>
+            <point key="canvasLocation" x="4718" y="-1284"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="yAx-t1-cYJ">
@@ -1544,7 +1544,7 @@
                 </splitViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E8X-Sd-Huy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5279" y="376"/>
+            <point key="canvasLocation" x="3934" y="-980"/>
         </scene>
     </scenes>
     <resources>
@@ -1559,6 +1559,7 @@
         <image name="javaSample" width="1126" height="754"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="AFw-dK-xmp"/>
         <segue reference="uXq-J3-haT"/>
     </inferredMetricsTieBreakers>
 </document>
