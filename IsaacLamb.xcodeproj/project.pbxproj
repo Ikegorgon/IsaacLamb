@@ -15,6 +15,7 @@
 		53562F521FCCB1F300CF9D04 /* AbstractionPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53562F511FCCB1F300CF9D04 /* AbstractionPageController.swift */; };
 		53A262AC1FCF39EF00A5370C /* InternetDetailViewontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A262AB1FCF39EF00A5370C /* InternetDetailViewontroller.swift */; };
 		53A262AF1FCF3B9700A5370C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A262AE1FCF3B9700A5370C /* WebKit.framework */; };
+		53C312DE1FD72AB300E5977B /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C312DD1FD72AB300E5977B /* DrawingView.swift */; };
 		53C530191FA2599900A6D94D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C530181FA2599900A6D94D /* AppDelegate.swift */; };
 		53C5301E1FA2599900A6D94D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C5301C1FA2599900A6D94D /* Main.storyboard */; };
 		53C530201FA2599900A6D94D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C5301F1FA2599900A6D94D /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		53562F511FCCB1F300CF9D04 /* AbstractionPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionPageController.swift; sourceTree = "<group>"; };
 		53A262AB1FCF39EF00A5370C /* InternetDetailViewontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewontroller.swift; sourceTree = "<group>"; };
 		53A262AE1FCF3B9700A5370C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		53C312DD1FD72AB300E5977B /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		53C530151FA2599900A6D94D /* IsaacLamb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsaacLamb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53C530181FA2599900A6D94D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53C5301D1FA2599900A6D94D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 			children = (
 				53DF23E41FC35F90009F4F6C /* Love.swift */,
 				53DF23E61FC36077009F4F6C /* Duck.swift */,
+				53C312DD1FD72AB300E5977B /* DrawingView.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				53CA745C1FB63D5B0007A7F8 /* DataInfoController.swift in Sources */,
 				53562F521FCCB1F300CF9D04 /* AbstractionPageController.swift in Sources */,
 				53C530191FA2599900A6D94D /* AppDelegate.swift in Sources */,
+				53C312DE1FD72AB300E5977B /* DrawingView.swift in Sources */,
 				53A262AC1FCF39EF00A5370C /* InternetDetailViewontroller.swift in Sources */,
 				533F1B9B1FB3A5EF0030A40A /* Algorithm Controller.swift in Sources */,
 			);
