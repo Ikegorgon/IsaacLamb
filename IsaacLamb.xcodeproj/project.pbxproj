@@ -24,6 +24,7 @@
 		53CA745E1FB63DAC0007A7F8 /* ProgrammingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA745D1FB63DAC0007A7F8 /* ProgrammingController.swift */; };
 		53CA74601FB63DC20007A7F8 /* InternetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA745F1FB63DC20007A7F8 /* InternetController.swift */; };
 		53CA74621FB63DE70007A7F8 /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA74611FB63DE70007A7F8 /* GlobalImpactController.swift */; };
+		53DB2A2F1FD9D37D00A67186 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB2A2E1FD9D37D00A67186 /* ArtCell.swift */; };
 		53DF23E51FC35F90009F4F6C /* Love.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF23E41FC35F90009F4F6C /* Love.swift */; };
 		53DF23E71FC36077009F4F6C /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF23E61FC36077009F4F6C /* Duck.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		53CA745D1FB63DAC0007A7F8 /* ProgrammingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingController.swift; sourceTree = "<group>"; };
 		53CA745F1FB63DC20007A7F8 /* InternetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetController.swift; sourceTree = "<group>"; };
 		53CA74611FB63DE70007A7F8 /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
+		53DB2A2E1FD9D37D00A67186 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		53DF23E41FC35F90009F4F6C /* Love.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love.swift; sourceTree = "<group>"; };
 		53DF23E61FC36077009F4F6C /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 				535623AF1FBB7BB800ACFAA0 /* ViewController.swift */,
 				535623B11FBB7C3B00ACFAA0 /* MainController.swift */,
 				533F1B9C1FB3A68C0030A40A /* CreativityController.swift */,
+				53DB2A2E1FD9D37D00A67186 /* ArtCell.swift */,
 				533F1B9E1FB3A6A60030A40A /* AbstractionController.swift */,
 				53562F511FCCB1F300CF9D04 /* AbstractionPageController.swift */,
 				53CA745B1FB63D5B0007A7F8 /* DataInfoController.swift */,
@@ -210,6 +213,7 @@
 				53C312DE1FD72AB300E5977B /* DrawingView.swift in Sources */,
 				53A262AC1FCF39EF00A5370C /* InternetDetailViewontroller.swift in Sources */,
 				533F1B9B1FB3A5EF0030A40A /* Algorithm Controller.swift in Sources */,
+				53DB2A2F1FD9D37D00A67186 /* ArtCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
