@@ -154,19 +154,6 @@
 				53FFDEDC1FE1AC3200B15E19 /* GameScene.swift */,
 				53FFDEDD1FE1AC3200B15E19 /* LevelCompleteScene.swift */,
 				53FFDEDE1FE1AC3200B15E19 /* StartScene.swift */,
-				53C530181FA2599900A6D94D /* AppDelegate.swift */,
-				535623AF1FBB7BB800ACFAA0 /* ViewController.swift */,
-				535623B11FBB7C3B00ACFAA0 /* MainController.swift */,
-				533F1B9C1FB3A68C0030A40A /* CreativityController.swift */,
-				53DB2A2E1FD9D37D00A67186 /* ArtCell.swift */,
-				533F1B9E1FB3A6A60030A40A /* AbstractionController.swift */,
-				53562F511FCCB1F300CF9D04 /* AbstractionPageController.swift */,
-				53CA745B1FB63D5B0007A7F8 /* DataInfoController.swift */,
-				533F1B9A1FB3A5EF0030A40A /* Algorithm Controller.swift */,
-				53CA745D1FB63DAC0007A7F8 /* ProgrammingController.swift */,
-				53CA745F1FB63DC20007A7F8 /* InternetController.swift */,
-				53A262AB1FCF39EF00A5370C /* InternetDetailViewontroller.swift */,
-				53CA74611FB63DE70007A7F8 /* GlobalImpactController.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -208,6 +195,19 @@
 			isa = PBXGroup;
 			children = (
 				53FFDED81FE1AB8100B15E19 /* GameController */,
+				53C530181FA2599900A6D94D /* AppDelegate.swift */,
+				535623AF1FBB7BB800ACFAA0 /* ViewController.swift */,
+				535623B11FBB7C3B00ACFAA0 /* MainController.swift */,
+				533F1B9C1FB3A68C0030A40A /* CreativityController.swift */,
+				53DB2A2E1FD9D37D00A67186 /* ArtCell.swift */,
+				533F1B9E1FB3A6A60030A40A /* AbstractionController.swift */,
+				53562F511FCCB1F300CF9D04 /* AbstractionPageController.swift */,
+				53CA745B1FB63D5B0007A7F8 /* DataInfoController.swift */,
+				533F1B9A1FB3A5EF0030A40A /* Algorithm Controller.swift */,
+				53CA745D1FB63DAC0007A7F8 /* ProgrammingController.swift */,
+				53CA745F1FB63DC20007A7F8 /* InternetController.swift */,
+				53A262AB1FCF39EF00A5370C /* InternetDetailViewontroller.swift */,
+				53CA74611FB63DE70007A7F8 /* GlobalImpactController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -452,7 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IsaacLamb/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IsaacLamb/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.IsaacLamb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -466,7 +466,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = IsaacLamb/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/IsaacLamb/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-.IsaacLamb";
 				PRODUCT_NAME = "$(TARGET_NAME)";
