@@ -27,6 +27,21 @@
 		53DB2A2F1FD9D37D00A67186 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DB2A2E1FD9D37D00A67186 /* ArtCell.swift */; };
 		53DF23E51FC35F90009F4F6C /* Love.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF23E41FC35F90009F4F6C /* Love.swift */; };
 		53DF23E71FC36077009F4F6C /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DF23E61FC36077009F4F6C /* Duck.swift */; };
+		53FFDEDF1FE1AC3300B15E19 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDEDC1FE1AC3200B15E19 /* GameScene.swift */; };
+		53FFDEE01FE1AC3300B15E19 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDEDD1FE1AC3200B15E19 /* LevelCompleteScene.swift */; };
+		53FFDEE11FE1AC3300B15E19 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDEDE1FE1AC3200B15E19 /* StartScene.swift */; };
+		53FFDEF71FE1AEE100B15E19 /* invader sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53FFDEF21FE1AEE100B15E19 /* invader sound.mp3 */; };
+		53FFDEF81FE1AEE100B15E19 /* boss sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53FFDEF31FE1AEE100B15E19 /* boss sound.mp3 */; };
+		53FFDEF91FE1AEE100B15E19 /* extra sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53FFDEF41FE1AEE100B15E19 /* extra sound.mp3 */; };
+		53FFDEFA1FE1AEE100B15E19 /* laser sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53FFDEF51FE1AEE100B15E19 /* laser sound.mp3 */; };
+		53FFDEFB1FE1AEE100B15E19 /* powerup sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53FFDEF61FE1AEE100B15E19 /* powerup sound.mp3 */; };
+		53FFDEFD1FE1AF1B00B15E19 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDEFC1FE1AF1A00B15E19 /* Utilities.swift */; };
+		53FFDF001FE1AFA300B15E19 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = 53FFDEFF1FE1AFA300B15E19 /* StarField.sks */; };
+		53FFDF061FE1AFD000B15E19 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDF011FE1AFCF00B15E19 /* Player.swift */; };
+		53FFDF071FE1AFD000B15E19 /* PlayerLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDF021FE1AFCF00B15E19 /* PlayerLaser.swift */; };
+		53FFDF081FE1AFD000B15E19 /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDF031FE1AFCF00B15E19 /* Projectile.swift */; };
+		53FFDF091FE1AFD000B15E19 /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDF041FE1AFD000B15E19 /* InvaderLaser.swift */; };
+		53FFDF0A1FE1AFD000B15E19 /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFDF051FE1AFD000B15E19 /* Invader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +67,21 @@
 		53DB2A2E1FD9D37D00A67186 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		53DF23E41FC35F90009F4F6C /* Love.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Love.swift; sourceTree = "<group>"; };
 		53DF23E61FC36077009F4F6C /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		53FFDEDC1FE1AC3200B15E19 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		53FFDEDD1FE1AC3200B15E19 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		53FFDEDE1FE1AC3200B15E19 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		53FFDEF21FE1AEE100B15E19 /* invader sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "invader sound.mp3"; path = "IsaacLamb/Resources/invader sound.mp3"; sourceTree = SOURCE_ROOT; };
+		53FFDEF31FE1AEE100B15E19 /* boss sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "boss sound.mp3"; path = "IsaacLamb/Resources/boss sound.mp3"; sourceTree = SOURCE_ROOT; };
+		53FFDEF41FE1AEE100B15E19 /* extra sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "extra sound.mp3"; path = "IsaacLamb/Resources/extra sound.mp3"; sourceTree = SOURCE_ROOT; };
+		53FFDEF51FE1AEE100B15E19 /* laser sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "laser sound.mp3"; path = "IsaacLamb/Resources/laser sound.mp3"; sourceTree = SOURCE_ROOT; };
+		53FFDEF61FE1AEE100B15E19 /* powerup sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "powerup sound.mp3"; path = "IsaacLamb/Resources/powerup sound.mp3"; sourceTree = SOURCE_ROOT; };
+		53FFDEFC1FE1AF1A00B15E19 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		53FFDEFF1FE1AFA300B15E19 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		53FFDF011FE1AFCF00B15E19 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		53FFDF021FE1AFCF00B15E19 /* PlayerLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLaser.swift; sourceTree = "<group>"; };
+		53FFDF031FE1AFCF00B15E19 /* Projectile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		53FFDF041FE1AFD000B15E19 /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
+		53FFDF051FE1AFD000B15E19 /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +124,36 @@
 		53C530171FA2599900A6D94D /* IsaacLamb */ = {
 			isa = PBXGroup;
 			children = (
+				53FFDF0B1FE1AFDE00B15E19 /* Controller */,
+				53FFDEFE1FE1AF7000B15E19 /* View */,
+				53FFDEE21FE1ADE000B15E19 /* Resources */,
+				53DF23E31FC35F72009F4F6C /* Model */,
+				53C530211FA2599900A6D94D /* LaunchScreen.storyboard */,
+			);
+			path = IsaacLamb;
+			sourceTree = "<group>";
+		};
+		53DF23E31FC35F72009F4F6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53FFDF051FE1AFD000B15E19 /* Invader.swift */,
+				53FFDF041FE1AFD000B15E19 /* InvaderLaser.swift */,
+				53FFDF011FE1AFCF00B15E19 /* Player.swift */,
+				53FFDF021FE1AFCF00B15E19 /* PlayerLaser.swift */,
+				53FFDF031FE1AFCF00B15E19 /* Projectile.swift */,
+				53DF23E41FC35F90009F4F6C /* Love.swift */,
+				53DF23E61FC36077009F4F6C /* Duck.swift */,
+				53C312DD1FD72AB300E5977B /* DrawingView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		53FFDED81FE1AB8100B15E19 /* GameController */ = {
+			isa = PBXGroup;
+			children = (
+				53FFDEDC1FE1AC3200B15E19 /* GameScene.swift */,
+				53FFDEDD1FE1AC3200B15E19 /* LevelCompleteScene.swift */,
+				53FFDEDE1FE1AC3200B15E19 /* StartScene.swift */,
 				53C530181FA2599900A6D94D /* AppDelegate.swift */,
 				535623AF1FBB7BB800ACFAA0 /* ViewController.swift */,
 				535623B11FBB7C3B00ACFAA0 /* MainController.swift */,
@@ -107,23 +167,49 @@
 				53CA745F1FB63DC20007A7F8 /* InternetController.swift */,
 				53A262AB1FCF39EF00A5370C /* InternetDetailViewontroller.swift */,
 				53CA74611FB63DE70007A7F8 /* GlobalImpactController.swift */,
-				53C5301C1FA2599900A6D94D /* Main.storyboard */,
-				53C5301F1FA2599900A6D94D /* Assets.xcassets */,
-				53DF23E31FC35F72009F4F6C /* Model */,
-				53C530211FA2599900A6D94D /* LaunchScreen.storyboard */,
-				53C530241FA2599900A6D94D /* Info.plist */,
 			);
-			path = IsaacLamb;
+			path = GameController;
 			sourceTree = "<group>";
 		};
-		53DF23E31FC35F72009F4F6C /* Model */ = {
+		53FFDEE21FE1ADE000B15E19 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				53DF23E41FC35F90009F4F6C /* Love.swift */,
-				53DF23E61FC36077009F4F6C /* Duck.swift */,
-				53C312DD1FD72AB300E5977B /* DrawingView.swift */,
+				53FFDEEF1FE1AE7100B15E19 /* Sounds */,
+				53C5301F1FA2599900A6D94D /* Assets.xcassets */,
+				53FFDEFC1FE1AF1A00B15E19 /* Utilities.swift */,
+				53C530241FA2599900A6D94D /* Info.plist */,
 			);
-			path = Model;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53FFDEEF1FE1AE7100B15E19 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				53FFDEF31FE1AEE100B15E19 /* boss sound.mp3 */,
+				53FFDEF41FE1AEE100B15E19 /* extra sound.mp3 */,
+				53FFDEF21FE1AEE100B15E19 /* invader sound.mp3 */,
+				53FFDEF51FE1AEE100B15E19 /* laser sound.mp3 */,
+				53FFDEF61FE1AEE100B15E19 /* powerup sound.mp3 */,
+			);
+			name = Sounds;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		53FFDEFE1FE1AF7000B15E19 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				53C5301C1FA2599900A6D94D /* Main.storyboard */,
+				53FFDEFF1FE1AFA300B15E19 /* StarField.sks */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		53FFDF0B1FE1AFDE00B15E19 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				53FFDED81FE1AB8100B15E19 /* GameController */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,8 +272,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C530231FA2599900A6D94D /* LaunchScreen.storyboard in Resources */,
+				53FFDEF71FE1AEE100B15E19 /* invader sound.mp3 in Resources */,
+				53FFDEFB1FE1AEE100B15E19 /* powerup sound.mp3 in Resources */,
 				53C530201FA2599900A6D94D /* Assets.xcassets in Resources */,
 				53C5301E1FA2599900A6D94D /* Main.storyboard in Resources */,
+				53FFDEF91FE1AEE100B15E19 /* extra sound.mp3 in Resources */,
+				53FFDF001FE1AFA300B15E19 /* StarField.sks in Resources */,
+				53FFDEFA1FE1AEE100B15E19 /* laser sound.mp3 in Resources */,
+				53FFDEF81FE1AEE100B15E19 /* boss sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,17 +294,26 @@
 				53CA74621FB63DE70007A7F8 /* GlobalImpactController.swift in Sources */,
 				53CA74601FB63DC20007A7F8 /* InternetController.swift in Sources */,
 				53CA745E1FB63DAC0007A7F8 /* ProgrammingController.swift in Sources */,
+				53FFDF061FE1AFD000B15E19 /* Player.swift in Sources */,
 				535623B01FBB7BB800ACFAA0 /* ViewController.swift in Sources */,
+				53FFDF071FE1AFD000B15E19 /* PlayerLaser.swift in Sources */,
+				53FFDF0A1FE1AFD000B15E19 /* Invader.swift in Sources */,
 				535623B21FBB7C3B00ACFAA0 /* MainController.swift in Sources */,
 				533F1B9D1FB3A68C0030A40A /* CreativityController.swift in Sources */,
 				533F1B9F1FB3A6A60030A40A /* AbstractionController.swift in Sources */,
 				53DF23E71FC36077009F4F6C /* Duck.swift in Sources */,
 				53CA745C1FB63D5B0007A7F8 /* DataInfoController.swift in Sources */,
 				53562F521FCCB1F300CF9D04 /* AbstractionPageController.swift in Sources */,
+				53FFDF091FE1AFD000B15E19 /* InvaderLaser.swift in Sources */,
+				53FFDEDF1FE1AC3300B15E19 /* GameScene.swift in Sources */,
 				53C530191FA2599900A6D94D /* AppDelegate.swift in Sources */,
+				53FFDF081FE1AFD000B15E19 /* Projectile.swift in Sources */,
+				53FFDEE11FE1AC3300B15E19 /* StartScene.swift in Sources */,
 				53C312DE1FD72AB300E5977B /* DrawingView.swift in Sources */,
 				53A262AC1FCF39EF00A5370C /* InternetDetailViewontroller.swift in Sources */,
 				533F1B9B1FB3A5EF0030A40A /* Algorithm Controller.swift in Sources */,
+				53FFDEE01FE1AC3300B15E19 /* LevelCompleteScene.swift in Sources */,
+				53FFDEFD1FE1AF1B00B15E19 /* Utilities.swift in Sources */,
 				53DB2A2F1FD9D37D00A67186 /* ArtCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

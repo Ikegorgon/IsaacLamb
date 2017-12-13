@@ -540,10 +540,10 @@
             </objects>
             <point key="canvasLocation" x="4569" y="116"/>
         </scene>
-        <!--Creativity Controller-->
+        <!--View Controller-->
         <scene sceneID="dRu-gX-jGT">
             <objects>
-                <viewController restorationIdentifier="Binary" storyboardIdentifier="Binary" id="CNw-dN-8Q3" customClass="CreativityController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Binary" storyboardIdentifier="Binary" id="CNw-dN-8Q3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bhG-z7-C9N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -622,10 +622,10 @@
             </objects>
             <point key="canvasLocation" x="2029.5999999999999" y="833.43328335832086"/>
         </scene>
-        <!--Creativity Controller-->
+        <!--View Controller-->
         <scene sceneID="yFV-gi-Hbg">
             <objects>
-                <viewController restorationIdentifier="Byte" storyboardIdentifier="Byte" id="DpW-uE-Y9M" customClass="CreativityController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Byte" storyboardIdentifier="Byte" id="DpW-uE-Y9M" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tFH-D6-qLD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -866,10 +866,10 @@
             </objects>
             <point key="canvasLocation" x="2668" y="834.33283358320841"/>
         </scene>
-        <!--Creativity Controller-->
+        <!--View Controller-->
         <scene sceneID="xJg-ED-oZI">
             <objects>
-                <viewController restorationIdentifier="Gate" storyboardIdentifier="Gate" id="3uA-iB-cx2" customClass="CreativityController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Gate" storyboardIdentifier="Gate" id="3uA-iB-cx2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pd8-tZ-pEx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1055,10 +1055,10 @@
             </objects>
             <point key="canvasLocation" x="3301.5999999999999" y="834.33283358320841"/>
         </scene>
-        <!--Creativity Controller-->
+        <!--View Controller-->
         <scene sceneID="Zkw-00-uej">
             <objects>
-                <viewController restorationIdentifier="Java" storyboardIdentifier="Java" id="kxA-4g-af5" customClass="CreativityController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Java" storyboardIdentifier="Java" id="kxA-4g-af5" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gna-VF-24n">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1406,10 +1406,10 @@
             </objects>
             <point key="canvasLocation" x="3933.5999999999999" y="833.43328335832086"/>
         </scene>
-        <!--Creativity Controller-->
+        <!--View Controller-->
         <scene sceneID="xMF-1H-04c">
             <objects>
-                <viewController restorationIdentifier="Block" storyboardIdentifier="Block" id="c8U-HJ-ROR" customClass="CreativityController" customModule="IsaacLamb" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="Block" storyboardIdentifier="Block" id="c8U-HJ-ROR" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p39-3u-LKh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1525,14 +1525,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yiw-cN-98B">
-                                <rect key="frame" x="16" y="64" width="343" height="265"/>
+                                <rect key="frame" x="16" y="64" width="343" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hbi-eT-haE">
-                                <rect key="frame" x="16" y="337" width="343" height="310"/>
+                                <rect key="frame" x="16" y="118" width="343" height="529"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -1551,7 +1551,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kg1-M0-5dd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4718" y="-544"/>
+            <point key="canvasLocation" x="4717.6000000000004" y="-545.57721139430294"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="yMs-Jx-JoV">
@@ -1566,7 +1566,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cjr-m3-R6r" id="bPJ-CS-dYZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
@@ -1590,7 +1590,6 @@
             <objects>
                 <navigationController id="3L6-vB-wVy" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kev-ue-7QU">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -1627,7 +1626,7 @@
         <image name="javaSample" width="1126" height="754"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="y1J-dZ-7Ja"/>
-        <segue reference="rAA-Mm-pFD"/>
+        <segue reference="AFw-dK-xmp"/>
+        <segue reference="pqu-NG-pzk"/>
     </inferredMetricsTieBreakers>
 </document>

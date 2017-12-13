@@ -24,12 +24,12 @@ class InternetController: UITableViewController {
     private var detailViewController : InternetDetailViewController?
     private func setup() -> Void {
         addresses = [
-            "https://www.google.com",
+            "https://www.merriam-webster.com/",
             "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
-            "http://www.canyonsdistrict.org/",
             "https://ctec.canyonsdistrict.org/",
-            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309",
-            "www.twitter.com"
+            "https://skyward.canyonsdistrict.org/",
+            "https://twitter.com/search?q=%7BsearchTerms%7D",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309"
         ]
         if let splitView = splitViewController {
             let currentControllers = splitView.viewControllers
