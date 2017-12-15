@@ -14,7 +14,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 {
     //MARK: Invader Data
     let rowsOfInvaders : Int = 4
-    var invaderSpeed : Int = 5
+    var invaderSpeed : Int = 3
     var invadersThatCanFire : [Invader] = []
     
     //MARK: Player Data
@@ -81,7 +81,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             self.enumerateChildNodes(withName: "invader") {
                 node, stop in
                 let invader = node as! SKSpriteNode
-                invader.position.y -= CGFloat(10)
+                invader.position.y -= CGFloat(5)
             }
             changeDirection = false
         }
