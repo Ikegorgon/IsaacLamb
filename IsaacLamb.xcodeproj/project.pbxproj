@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530C35861FE9A4BE0057B8A5 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C35851FE9A4BE0057B8A5 /* DeathScene.swift */; };
 		533F1B9B1FB3A5EF0030A40A /* Algorithm Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F1B9A1FB3A5EF0030A40A /* Algorithm Controller.swift */; };
 		533F1B9D1FB3A68C0030A40A /* CreativityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F1B9C1FB3A68C0030A40A /* CreativityController.swift */; };
 		533F1B9F1FB3A6A60030A40A /* AbstractionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533F1B9E1FB3A6A60030A40A /* AbstractionController.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		530C35851FE9A4BE0057B8A5 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		533F1B9A1FB3A5EF0030A40A /* Algorithm Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Algorithm Controller.swift"; sourceTree = "<group>"; };
 		533F1B9C1FB3A68C0030A40A /* CreativityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreativityController.swift; sourceTree = "<group>"; };
 		533F1B9E1FB3A6A60030A40A /* AbstractionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractionController.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				53FFDEDC1FE1AC3200B15E19 /* GameScene.swift */,
 				53FFDEDD1FE1AC3200B15E19 /* LevelCompleteScene.swift */,
 				53FFDEDE1FE1AC3200B15E19 /* StartScene.swift */,
+				530C35851FE9A4BE0057B8A5 /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				53FFDF061FE1AFD000B15E19 /* Player.swift in Sources */,
 				535623B01FBB7BB800ACFAA0 /* ViewController.swift in Sources */,
 				53FFDF071FE1AFD000B15E19 /* PlayerLaser.swift in Sources */,
+				530C35861FE9A4BE0057B8A5 /* DeathScene.swift in Sources */,
 				53FFDF0A1FE1AFD000B15E19 /* Invader.swift in Sources */,
 				535623B21FBB7C3B00ACFAA0 /* MainController.swift in Sources */,
 				533F1B9D1FB3A68C0030A40A /* CreativityController.swift in Sources */,
