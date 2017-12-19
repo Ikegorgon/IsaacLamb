@@ -19,7 +19,7 @@ public class InvaderLaser: Projectile
         self.physicsBody?.isDynamic = true
         self.physicsBody?.usesPreciseCollisionDetection = true
         self.physicsBody?.categoryBitMask = CollisionCategories.InvaderBullet
-        self.physicsBody?.contactTestBitMask = CollisionCategories.PlayerBullet | CollisionCategories.Player
+        self.physicsBody?.contactTestBitMask = CollisionCategories.Player
         self.physicsBody?.collisionBitMask = 0x0
     }
     
