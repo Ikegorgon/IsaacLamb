@@ -14,7 +14,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 {
     //MARK: Invader Data
     let rowsOfInvaders : Int = 4
-    var invaderSpeed : Int = 3
+    var invaderSpeed : Int = 2
     var invadersThatCanFire : [Invader] = []
     
     //MARK: Player Data
@@ -89,22 +89,46 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     private func invokeInvaderFire() -> Void
     {
-        
+        let fireBullet = SKAction.run()
+        {
+            self.fireInvaderBullet()
+        }
+        let waitToFireInvaderBullet = SKAction.wait(forDuration: 2.5)
+        let invaderFire = SKAction.sequence([fireBullet,waitToFireInvaderBullet])
+        let repeatForeverAction = SKAction.repeatForever(invaderFire)
+        run (repeatForeverAction)
     }
     
     func fireInvaderBullet() -> Void
     {
-       
+        if (invadersThatCanFire.isEmpty) {
+            gameLevel += 1
+            levelComplete()
+        }
+        if let randomInvader = invadersThatCanFire.randomElement() {
+            randomInvader.fireBullet(scene: self)
+        }
     }
     
     func newGame() -> Void
     {
-        
+        let newGameScene = StartScene (size: size)
+        newGameScene.scaleMode = scaleMode
+        let transistionType = SKTransition.flipHorizontal(withDuration: 0.5)
+        view?.presentScene(newGameScene, transition: transistionType)
     }
     
     func levelComplete() -> Void
     {
-        
+        if (gameLevel <= maxLevels) {
+            let levelCompleteScene = LevelCompleteScene(size: size)
+            levelCompleteScene.scaleMode = scaleMode
+            let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
+            view?.presentScene(levelCompleteScene, transition: transitionType)
+        } else {
+            gameLevel = 1
+            newGame()
+        }
     }
     
     
@@ -142,7 +166,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     override public func didSimulatePhysics()
     {
-        
+        player.physicsBody?.velocity = CGVector(dx: accelerationX * 600, dy: 0)
     }
 
     //MARK:- Handle Motion
