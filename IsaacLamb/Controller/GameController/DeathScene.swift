@@ -12,7 +12,7 @@ import SpriteKit
 class DeathScene: SKScene {
     override public func didMove(to view:SKView) -> Void {
         self.backgroundColor = SKColor.blue
-        let gameOver = SKLabelNode(text: "You Died")
+        let gameOver = SKLabelNode(text: "You Dead")
         gameOver.name = "game over"
         gameOver.fontSize = 65
         gameOver.fontColor = SKColor.white
