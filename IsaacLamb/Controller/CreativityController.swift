@@ -15,12 +15,21 @@ class CreativityController: UICollectionViewController, UICollectionViewDelegate
     
     private lazy var artSelection : [UIImage?] = {
         return [
-            UIImage(named: "JavaHiKu"),
-            UIImage(named: "Logo"),
-            UIImage(named: "globalcooling"),
-            UIImage(named: "Gate"),
-            UIImage(named: "Abstract"),
-            UIImage(named: "Sheep")
+            UIImage(named: "Pic1"),
+            UIImage(named: "Pic2"),
+            UIImage(named: "Pic3"),
+            UIImage(named: "Pic4"),
+            UIImage(named: "Pic5"),
+            UIImage(named: "Pic6"),
+            UIImage(named: "Pic7"),
+            UIImage(named: "Pic8"),
+            UIImage(named: "Pic9"),
+            UIImage(named: "Pic10"),
+            UIImage(named: "Pic11"),
+            UIImage(named: "Pic12"),
+            UIImage(named: "Pic13"),
+            UIImage(named: "Pic14"),
+            UIImage(named: "Pic15")
         ]
     }()
     
@@ -60,9 +69,9 @@ class CreativityController: UICollectionViewController, UICollectionViewDelegate
     }
     override public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let artCell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ArtCell
-        artCell.backgroundColor = .purple
+        artCell.backgroundColor = .black
         artCell.imageView.image = artSelection[indexPath.row]
-        artCell.imageName.text = "My  Art"
+        artCell.imageName.text = "@ianericksonphotography"
         
         return artCell
     }
@@ -71,8 +80,8 @@ class CreativityController: UICollectionViewController, UICollectionViewDelegate
         if indexPath == largePhotoIndexPath {
             let art = artSelection[indexPath.row]
             let size = collectionView.bounds.size
-            let widthScale = (size.width / art!.size.width) * CGFloat(0.80)
-            let largeSize = CGSize(width:art!.size.width * widthScale, height: art!.size.height * widthScale)
+            let widthScale = (size.width / art!.size.width) * CGFloat(0.90)
+            let largeSize = CGSize(width:art!.size.width * widthScale, height: art!.size.height + 30)
             return largeSize
         }
         let paddingSpace = sectionInsests.left * (itemsPerRow + 1)
@@ -84,7 +93,7 @@ class CreativityController: UICollectionViewController, UICollectionViewDelegate
         return sectionInsests
     }
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return sectionInsests.left
+        return sectionInsests.right
     }
     override public func collectionView(_ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath) -> Bool {
         if largePhotoIndexPath == indexPath {
