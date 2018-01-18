@@ -48,7 +48,7 @@ public class InternetDetailViewController: UIViewController {
             }
         } else {
             if let currentText = textView {
-                currentText.text = "Isaac's CSP app internet screen"
+                currentText.text = "Home Page"
             }
         }
     }

@@ -12,6 +12,7 @@ class InternetController: UITableViewController {
 
     private (set) lazy var internetTopics: [String] = {
         return [
+            "Home Page",
             "Definitions",
             "CSP",
             "CTEC",
@@ -24,6 +25,7 @@ class InternetController: UITableViewController {
     private var detailViewController : InternetDetailViewController?
     private func setup() -> Void {
         addresses = [
+            "https://www.google.com",
             "https://www.merriam-webster.com/",
             "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
             "https://ctec.canyonsdistrict.org/",
@@ -62,8 +64,9 @@ class InternetController: UITableViewController {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let urlString = addresses[indexPath.row]
                 let pageText : String
-                if indexPath.row == 0 {
-                    pageText = "URL: Uniform Resource Locator, world wide web link. TCP: a set of rules that governs the delivery of data over the Internet or other network that uses the Internet Protocol, and sets up a connection between the sending and receiving computers. IP: Internet Protocol, a set of rules governing the format of data sent over the Internet or other network. DNS: (Domain Name System) The Internet's system for converting alphabetic names into numeric IP addresses."
+                if indexPath.row == 1 {
+                    /*pageText = "URL: Uniform Resource Locator, world wide web link. TCP: a set of rules that governs the delivery of data over the Internet or other network that uses the Internet Protocol, and sets up a connection between the sending and receiving computers. IP: Internet Protocol, a set of rules governing the format of data sent over the Internet or other network. DNS: (Domain Name System) The Internet's system for converting alphabetic names into numeric IP addresses."*/
+                    pageText = "Definitions - Define: URL, TCP, IP, & DNS"
                 } else {
                     pageText = internetTopics[indexPath.row]
                 }
